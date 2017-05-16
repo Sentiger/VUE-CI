@@ -1,6 +1,6 @@
-# webpack-simple-demo
+# CodeIgniter集成vue.js
 
-> A Vue.js project
+> A CodeIgniter + Vue.js project
 
 ## Build Setup
 
