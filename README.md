@@ -5,14 +5,15 @@
 ## Build Setup
 
 ``` bash
-# install dependencies
-npm install
+# 安装步骤
+*   git下载项目到开发环境
+*   配置虚拟主机到项目目录
+*   npm install
+*	npm watch
 
-# serve with hot reload at localhost:8080
-npm run dev
+----------
+这样编译文件就会生成在public/js/app.js中
 
-# build for production with minification
-npm run build
-```
+# 编写vue组件可以在views/assets/js/中编写，然后在项目中引入<script src="/public/js/app.js"></script>
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
